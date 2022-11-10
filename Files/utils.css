@@ -1,0 +1,27 @@
+@font-face {
+  font-family: Kollektif;
+  src: url(Assets/Kollektif.ttf);
+}
+@font-face {
+  font-family: Kollektif-Bold;
+  src: url(Assets/Kollektif-Bold.ttf);
+}
+@font-face {
+  font-family: Antic;
+  src: url(Assets/AnticSans-Regular.otf);
+}
+:root{
+  --pink:#FFAEBC;
+  --bg:#F8F9FA;
+  --light-grey:#E9ECEF;
+  --black:#212529;
+  --light-black:#343A40;
+  --dark-grey:#6C757D;
+  --darker-grey:#495057;
+  --shadow:rgba(0,0,0,0.05);
+}
+.centered{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
