@@ -1,0 +1,118 @@
+*{
+  margin:0;
+  padding:0;
+  font-size:18px;
+}
+body{
+  background-color:var(--bg);
+  font-family: Kollektif-bold;
+}
+.bar{
+  width:calc(50vw - 147.5px + (295px / 5));
+  height:100vh;
+  background-color:var(--pink);
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:-1;
+}
+.card{
+  background-color:var(--bg);
+  width:295px;
+  height:390px;
+  box-shadow:0 0 25px var(--shadow);
+  border-radius:20px;
+  overflow:hidden;
+  position:relative;
+}
+.card-bar{
+  height:100%;
+  width:20%;
+  background-color:var(--pink);
+  position:absolute;
+  top:0;
+  left:0;
+  transition:0.6s;
+}
+.signup .card-bar{
+  transform:translate(500%);
+}
+.card-bar.signup{
+  transform:translate(-500%);
+}
+.signup .card-bar.signup{
+  transform:translate(0);
+}
+.addButton{
+  width:90px;
+  height:90px;
+  border-radius:50%;
+  background-color:var(--pink);
+  position: absolute;
+  top:calc(50vh + 125px);
+  right:calc(50vw - 170px);
+  box-shadow:0 0 25px var(--shadow);
+  transition:0.6s;
+}
+.addButton i{
+  font-size:26px;
+  text-align:center;
+  color:var(--light-black);
+}
+.signup .addButton{
+  top:calc(50vh - 230px);
+  transform:rotate(45deg);
+}
+.main{
+  padding-left:20vw;
+  padding-top:50px;
+  position: absolute;
+  top:0;
+  left:0;
+  transition:0.6s;
+}
+.signup .main{
+  transform:translate(100%);
+}
+.main.signup{
+  transform:translate(-100%);
+}
+.signup .main.signup{
+  transform:translate(0);
+}
+.main h1{
+  font-size:30px;
+  color:var(--dark-grey);
+  padding-left:2px;
+}
+.main h3{
+  font-size:25px;
+  color:var(--light-black);
+  padding-left:2px;
+}
+form input{
+  display:block;
+  border:0;
+  background-color:var(--bg);
+  box-shadow:0 5px 10px var(--shadow-light);
+  padding:12px;
+  width:180px;
+  border-radius:25px;
+  margin-top:15px;
+  font-size:14px;
+  color:var(--dark-grey);
+}
+form .submit{
+  width:150px;
+  height:45px;
+  background-color:var(--pink);
+  border:0;
+  border-radius:25px;
+  font-family:Kollektif-bold;
+  color:var(--darker-grey);
+  margin-top:30px;
+}
+input:focus,input:active,textarea:active,textarea:focus{
+  border:0;
+  outline:0;
+}

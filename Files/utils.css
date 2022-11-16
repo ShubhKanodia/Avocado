@@ -18,7 +18,8 @@
   --light-black:#343A40;
   --dark-grey:#6C757D;
   --darker-grey:#495057;
-  --shadow:rgba(0,0,0,0.05);
+  --shadow:rgba(0,0,0,0.1);
+  --shadow-light:rgba(0,0,0,0.05);
 }
 .centered{
   display:flex;

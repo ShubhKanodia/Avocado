@@ -3,23 +3,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="utils.css">
+    <script src="https://kit.fontawesome.com/b575671b41.js" crossorigin="anonymous"></script>
     <title>Avocado</title>
   </head>
   <body class="centered">
+    <div class="bar"></div>
     <div class="card">
+      <div class="card-bar"></div>
+      <div class="card-bar signup"></div>
       <div class="main">
         <h1>Avocado</h1>
-        <h3>Log In</h3>
+        <h3>Login</h3>
+        <form>
+          <input placeholder="Username" name="username" id="username"/>
+          <input placeholder="Password" name="password" id="password"/>
+          <button class="submit">Login</button>
+        </form>
+      </div>
+      <div class="main signup">
+        <h1>Avocado</h1>
+        <h3>Signup</h3>
         <form>
           <input placeholder="Username" name="username" id="username"/>
           <input placeholder="Password" name="password" id="password"/>
           <input placeholder="Email" name="email" id="email"/>
-          <button class="submit">Login</button>
+          <button class="submit">Signup</button>
         </form>
       </div>
-      <div class="addButton"></div>
     </div>
-    
+    <div class="addButton centered" onclick="toggleLogin();"><i class="fa-solid fa-plus"></i></div>
     <script src="index.js"></script>
   </body>
 </html>
