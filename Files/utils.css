@@ -26,3 +26,7 @@
   align-items:center;
   justify-content:center;
 }
+input:focus,input:active,textarea:active,textarea:focus{
+  border:0;
+  outline:0;
+}

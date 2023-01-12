@@ -3,24 +3,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="chat.css">
     <link rel="stylesheet" href="utils.css">
+    <script src="https://kit.fontawesome.com/b575671b41.js" crossorigin="anonymous"></script>
     <title>Avocado</title>
   </head>
   <body>
     <div class="main">
       <div class="header">
-        <i class="back"></i>
+        <i class="fa-solid fa-arrow-left back"></i>
         <h1 class="roomName">Family</h1>
-        <i class="remove"></i>
+        <i class="fa-solid fa-trash remove"></i>
       </div>
       <ul class="chats">
-        <li><div class="message"><div class="user">Raj Jaiswal</div><div class="text">Hi There!</div></div>
-        <li><div class="message me"><div class="user">Steve</div><div class="text">Hey! What's Up?</div></div>
-        <li><div class="message"><div class="user">Aman</div><div class="text">Hello Everyone</div></div>
-        <li><div class="message"><div class="user">Aman</div><div class="text">I was thinking of something today<br>How about we play that?</div></div>
+        <li><div class="message"><div class="user">Raj Jaiswal</div><br><div class="text">Hi There!</div></div>
+        <li><div class="message me"><div class="user">Steve</div><br><div class="text">Hey! What's Up?</div></div>
+        <li><div class="message"><div class="user">Aman</div><br><div class="text">Hello Everyone</div></div>
+        <li><div class="message"><div class="user">Aman</div><br><div class="text">I was thinking of something today<br>How about we play that?</div></div>
       </ul>
       <div class=footer>
-        <input placeholder="Type Something..." name="input" id="textInput"\>
-        <button> </button>
+        <textarea placeholder="Type Something..." name="input" id="textInput" rows=1 columns=50></textarea>
+        <button onclick="sendMessage();"><i class="fa-solid fa-play"></i></button>
       </div>
     </div>
     
