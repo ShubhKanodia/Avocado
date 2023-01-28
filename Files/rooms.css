@@ -1,143 +1,77 @@
 *{
-    margin: 4px;;
+    margin: 0px;
     padding:0;
     font-size:18px;
-  }
-  body{
+ }
+ body{
     background-color:var(--bg);
     font-family: Kollektif-bold;
-  }  
+ }  
 .main{
     display: flex;
-flex-direction: row;
-padding-top: 2%;
-padding-bottom: 2%;
-box-shadow:0 5px 25px var(--shadow);
-
+    width:100%;
+    height:70px;
+    align-items:center;
+    flex-direction: row;
+    box-shadow:0 5px 25px var(--shadow);
 }  
 .main h1{
-    margin: auto;
-    width: 18%;
+    margin-left: auto;
+    margin-right:auto;
     font-size:30px;
     color:var(--darker-grey);
-    padding-left:2px;
-  
-  }  
+}  
 .main #signout{
     color:var(--darker-grey);
     transform: rotate(180deg);
-    margin-left: 3%;
+    margin-left: 20px;
+    margin-right:auto;
+    font-size:1.3em;
 }  
 .main #add{
-   /** margin: auto;
-
-    font-size:30px;*/
-    color:var(--darker-grey);
-    padding-left:9px;
+     margin-left: auto;
+     margin-right:20px;
+     padding-top:3px;
+     font-size:1.4em;
+     color:var(--darker-grey);
 }
-
-
 .r #abcd{
-    margin-top: 8%;
-    margin-left: 4%;
+    margin-top: 25px;
+    margin-left: 25px;
     font-size: 25px;
     font-weight: 100;
     font-family: Kollektif;
 }
-
-.rooms .room1 {
-    display: flex;
-    flex-direction: row;
-    padding-top: 2%;
-    padding-bottom: 2%;   
+.rooms{
+    margin:25px;
 }
-.rooms .room2 {
-    display: flex;
-    flex-direction: row;
-    padding-top: 2%;
-    padding-bottom: 2%;   
+.rooms hr{
+    width:70vw;
+    height:1px;
+    border:0;
+    background-color:#DDDDDD;
 }
-.room1 h4{
-    padding-top: 1.5%;
-}
-.room1  #r1{
-    text-align: right;
-    margin-left: 88%;
-    font-size: 30;
-    position: absolute;
-    border-radius:100%;
-    padding: 1.5% 1.5% 1.5% 1.5%;
+.rooms .room{
+    width:100%;
+    height:65px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    font-family:Antic;
+    color:var(--darker-grey);
+    padding-left:20px;
+    padding-top:1px;
+}  
+.rooms i{
+    display:block;
+    width:45px;
+    height:45px;
+    border-radius:50%;
     background-color:var(--pink);
-}
-.room2  #r1{
-    text-align: right;
-    margin-left: 88%;
-    font-size: 30;
-    position: absolute;
-    border-radius:100%;
-    padding: 1.5% 1.5% 1.5% 1.5%;
-    background-color:var(--pink);
-}
-
-.room2 h4{
-    padding-top: 1.5%;
-}
-
-.rooms .room3 {
-    display: flex;
-    flex-direction: row;
-    padding-top: 2%;
-    padding-bottom: 2%;   
-}
-.rooms .room4 {
-    display: flex;
-    flex-direction: row;
-    padding-top: 2%;
-    padding-bottom: 2%;   
-}
-.room3 h4{
-    padding-top: 1.5%;
-}
-.room3  #r1{
-    text-align: right;
-    margin-left: 88%;
-    font-size: 30;
-    position: absolute;
-    border-radius:100%;
-    padding: 1.5% 1.5% 1.5% 1.5%;
-    background-color:var(--pink);
-}
-.room4  #r1{
-    text-align: right;
-    margin-left: 88%;
-    font-size: 30;
-    position: absolute;
-    border-radius:100%;
-    padding: 1.5% 1.5% 1.5% 1.5%;
-    background-color:var(--pink);
-}
-
-.room4 h4{
-    padding-top: 1.5%;
-}
-
-.rooms .room5 {
-    display: flex;
-    flex-direction: row;
-    padding-top: 2%;
-    padding-bottom: 2%;   
-}
-
-.room5  #r1{
-    text-align: right;
-    margin-left: 88%;
-    font-size: 30;
-    position: absolute;
-    border-radius:100%;
-    padding: 1.5% 1.5% 1.5% 1.5%;
-    background-color:var(--pink);
-}
-
-.room5 h4{
-    padding-top: 1.5%;
+    text-align:center;
+    line-height:45px;
+    margin-right:35px;
+    margin-left:auto;
+    color:var(--light-black);
+    font-size:1.2em;
 }
